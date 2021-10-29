@@ -1,0 +1,33 @@
+body {
+    background: #484848 url(./background.jpg) no-repeat center center fixed;
+    background-blend-mode: overlay;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+#content {
+    margin-top: 40vh;
+    background: #31313145;
+    border-radius: 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+#content > img {
+    width: 100%;
+    position: relative;
+}
+
+#content h1 { font-size: 30px; margin-bottom: 10px; }
+#content p { font-size: 20px; }
+
+@media screen and (min-width: 900px) {
+    #content { max-width: 45vw;}
+}
+
+@media screen and (max-width: 899px) {
+    #content { max-width: 75vw;}
+}
